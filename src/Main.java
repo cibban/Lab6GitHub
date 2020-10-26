@@ -55,7 +55,7 @@ public class Main {
 		boolean foundSomething = false;
 		for (int i = 0; i < allTheCocktails.results.bindings.size(); i++) {
 			cocktailValue = allTheCocktails.results.bindings.get(i).cocktailLabel.value;
-			link = allTheCocktails.results.bindings.get(i).cocktail.value;
+			link = allTheCocktails.results.bindings.get(i).cocktailArticle.value;
 			ingredientValue = allTheCocktails.results.bindings.get(i).ingredientLabel.value;
 			if(!lastCocktailValue.equals(cocktailValue)){
 				firstCocktailIndex = i;
