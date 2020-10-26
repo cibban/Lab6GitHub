@@ -1,5 +1,3 @@
-package Models;
-
 public class EvilErrorMessage {
 
     public static void userInput(String searchString) {
